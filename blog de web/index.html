@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <style>
+        body{
+    background-color:  #B28E6C;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+
+}
+
+.container{
+    background-color: #B28E6C ;
+    height: 100vh;
+    width: 99.5%;
+    display: grid;
+    grid-template-areas: "topo topo"
+                        "conteudo lateral"
+                        "rodape rodape";
+    grid-template-columns: 78% 22%;
+    grid-template-rows: 30% 90% 20%;
+    margin: 2px;
+    text-align: center;
+
+}
+
+.topo{
+    background-color: #B28E6C;
+    text-align: center;
+    grid-area: topo;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    border-radius: 15px;
+    
+    position: sticky;
+    top:0;
+    
+}
+h1{
+    padding-left: 40px;
+}
+.menu{
+    background-color:#8f7154;
+     height: 60px;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: stretch;
+     text-align: center;
+     padding-left: 25px;
+ 
+     position: sticky;
+     top:0;
+     border-radius: 15px;
+    
+    
+}
+.conteudo{
+    background-color: #D8D4C9;
+    grid-area: conteudo;
+    padding-left: 15px;
+    padding-top: 25px;
+    padding-right: 25px;
+    display: flex;
+    flex-direction: row;
+   
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: justify;
+    border-radius: 15px;
+    
+}
+
+.lateral{
+    background-color: #a08d7d;
+    grid-area: lateral;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+    padding-top: 10px;
+}
+
+.rodape{
+    background-color: #8f7154;
+    grid-area: rodape;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 15px;
+}
+
+
+a:link{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+}
+a:visited{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.button{
+    background-color:  #D8D4C9;
+    width: 250px;
+    height: 250px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    border:transparent;
+    color: rgb(27, 136, 32) ;
+
+   
+    
+    text-align: center;
+    
+   
+}
+
+img{
+    border-radius: 15px;
+}
+
+text{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+    </style>
+
+<div class="container">
+
+    <div class="topo">
+
+        <p><h1>Mundo Da Érica </h1>  <BR>seja bem vindo(a)...</p> <img src="./image-removebg-preview (4).png" alt="eu" widht= 100px height= 80px >
+      
+       
+
+        <div class="menu">
+            <a href="https://www.instagram.com/bia_beatrizer/" > <img src="./image-removebg-preview (2).png" alt="eu" widht= 35px height= 40px ><br>Meu Instagram</a>
+           
+        </div>
+    </div>
+
+  
+
+
+    <div class="conteudo">
+
+        <Div class="butao" style= " height: 300px;
+        width: 150px;
+        font-family: 'Times New Roman', Times, serif;
+        border-radius: 10px;
+        border:transparent;
+        top: 50px;
+    ">
+    
+    
+        <button class="button"><a href="minibio.html"><img src="./ericaa.jpg" alt="eu" widht=600px height= 400px ><br>
+        <h1>Minha Biografia</h1></a></button>
+        </Div>
+
+        
+         
+              Neste blog venho falar sobre meus gostos literários, musicais  e um pouco da minha vida. <br>Divirtam - se! :)<br>
+         <br>
+        
+
+    </div>
+
+
+
+    <div class="lateral">
+
+      
+    
+    
+        <button class="button" style= "background-color: #a08d7d; "><a href="https://open.spotify.com/playlist/37i9dQZF1DX6aTaZa0K6VA?si=79ab32a78d0141e1"><img src="./musica.png" alt="eu" widht=70px height= 100px ><br><h2>Músicas favoritas...</h2></a></button>
+        <button class="button" style= "background-color: #a08d7d; "><a href="https://g.co/kgs/EQQXRN"><img src="./livro (2).png" alt="eu" widht=70px height= 100px ><br><h2>Livros favoritos...</h2></a></button>
+       
+    
+
+    </div>
+
+
+    <div class="rodape">
+       @ Erica 2023
+    </div>
+
+</div>
+    
+</body>
+</html>

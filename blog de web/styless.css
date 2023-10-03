@@ -1,0 +1,101 @@
+body{
+    background-color:  #B28E6C;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+
+}
+
+.container{
+    background-color: #B28E6C ;
+    height: 100vh;
+    width: 99.5%;
+    display: grid;
+    grid-template-areas: "topo topo"
+                        "conteudo conteudo"
+                        "rodape rodape";
+    grid-template-columns: 78% 22%;
+    grid-template-rows: 25% 70% 20%;
+    margin: 2px;
+    text-align: center;
+
+}
+
+.conteudo{
+    background-color: #D8D4C9;
+    grid-area: conteudo;
+    padding-left: 15px;
+    padding-top: 25px;
+    padding-right: 25px;
+    text-align: justify;
+    border-radius: 15px;
+    
+}
+
+p{
+    font-size: 20px;
+}
+
+.rodape{
+    background-color: #8f7154;
+    grid-area: rodape;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 15px;
+}
+
+a:link{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+}
+a:visited{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+img{
+    border-radius: 15px;
+}
+
+text{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.topo{
+    background-color: #B28E6C;
+    text-align: center;
+    grid-area: topo;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    border-radius: 15px;
+    
+    position: sticky;
+    top:0;
+    
+}
+h1{
+    padding-left: 40px;
+}
+.menu{
+    background-color:#8f7154;
+     height: 60px;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: stretch;
+     text-align: center;
+     padding-left: 25px;
+ 
+     position: sticky;
+     top:0;
+     border-radius: 15px;
+    
+}
